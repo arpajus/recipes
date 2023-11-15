@@ -89,3 +89,26 @@ header {
     font-size: 16px;
   }
 
+  .container-pages{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+  }
+
+  .description{
+    flex: auto;
+    margin-left: 200px;
+  }
+
+  .ingredients{
+    flex: auto;
+    margin-left: 200px;
+  }
+
+  .steps{
+    flex: auto;
+    margin-left: 200px;
+  }
+
+
