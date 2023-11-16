@@ -77,6 +77,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 50px;
   }
 
   img{
@@ -92,23 +93,34 @@ header {
   .container-pages{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: flex-start;
   }
 
-  .description{
-    flex: auto;
-    margin-left: 200px;
-  }
+.description,
+.ingredients,
+.steps {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #5DD7B2;
+    border: 1px solid darkblue;
+}
 
-  .ingredients{
-    flex: auto;
-    margin-left: 200px;
-  }
+.steps ul {
+  padding: 0;
+  border: none;
+}
 
-  .steps{
-    flex: auto;
-    margin-left: 200px;
-  }
+.steps li {
+  margin-bottom: 10px;
+
+}
+
+.body-pages p, .body-pages h2, .body-pages ul{
+  text-align: center;
+}
+
+
+
+
 
 
