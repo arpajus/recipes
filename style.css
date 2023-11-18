@@ -20,15 +20,9 @@ header {
   }
 
 
-  .body{
+  .body, .body-pages{
     flex: 1;
     display: flex;
-  }
-  
-  .footer {
-    height: 72px;
-    background: #eee;
-    color: darkmagenta;
   }
   
   .sidebar {
@@ -78,6 +72,8 @@ header {
     align-items: center;
     justify-content: center;
     height: 50px;
+    background-color: #d6ccb0;
+    color: darkmagenta;
   }
 
   img{
